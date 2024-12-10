@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Feedback Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4faff;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden; /* Prevent scrolling beyond visible content */
+        }
+        h1 {
+            background-color: #c3dbf7;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 0; /* Remove margin between h1 and image */
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        footer {
+            background-color: #c3dbf7;
+            text-align: center;
+            padding: 20px;
+            position: fixed; /* Keep the footer fixed at the bottom */
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
+        }
+        .icon-set {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+            position: relative;
+            overflow: hidden;
+        }
+        .content-text {
+            width: 60%;
+        }
+
+        .content-text h1 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .content-text p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .content-image {
+            width: 35%;
+            text-align: center;
+        }
+
+        .content-image img {
+            width: 100%;
+        }
+
+        .icon-set div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+        }
+        .icon-set div img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+        .main-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-grow: 1;
+            padding: 40px;
+        }
+        /* Text container */
+        .content-text {
+            width: 50%;
+            padding-right: 20px;
+        }
+
+        .content-text h1 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .content-text p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Image container */
+        .content-image {
+            width: 40%;
+            
+        }
+
+        .content-image img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        /* Add margin to ensure spacing between footer and content */
+        .main-content {
+            margin-bottom: 60px;
+        }
+        /* Ensure the container stretches between header and footer */
+        
+    </style>
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    
+
+    <!-- Dashboard Header -->
+    <header>
+        <h1>Welcome to RateMyClass</h1>
+    </header>
+    <div id="fnavbar"></div>
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Text Container -->
+        <div class="content-text">
+           
+            <p>Welcome to the Student Feedback Portal, a platform designed to enhance communication between students and faculty, promoting continuous improvement in the quality of education. Our mission is to give students a voice in their academic journey, providing a space where open and honest feedback can be shared. We believe that this feedback is crucial in maintaining high teaching standards, refining faculty performance, and fostering a more engaging learning experience.</p>
+        <p>Welcome to the Student Feedback Portal, a dynamic platform designed to bridge the gap between students and faculty, fostering an environment of continuous growth and improvement. At the heart of our initiative is the belief that students' voices are essential to shaping an enriching academic experience. By providing an accessible space for students to share their insights, we aim to enhance teaching methodologies, identify areas for growth, and celebrate successes in the learning process.
+
+           
+            In essence, the Student Feedback Portal is more than a platform—it's a partnership between students and faculty, working together to raise the bar for academic excellence. We encourage all students to participate actively and contribute to the evolution of their learning journey, ensuring that quality education remains a cornerstone of our institution.
+            
+            </p>
+        </div>
+        <!-- Image Container -->
+        <div class="content-image">
+            <img src="https://i.postimg.cc/VkTbQT0c/aboutus.png" alt="Feedback illustration">
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        © 2024 Student Feedback System
+    </footer>
+
+    
+</body>
+</html>
